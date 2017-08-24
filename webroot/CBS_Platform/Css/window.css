@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding-bottom: 40px;
+}
+.sidebar-nav {
+	padding: 9px 0;
+}
+ @media (max-width: 980px) {
+/* Enable use of floated navbar text */
+.navbar-text.pull-right {
+	float: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+}
+.dialog1 {
+	display: none;
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	width: 400px;
+	height: 200px;
+	border: 1px solid #c3c3d6;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+.dialog1 .dialog_content {
+	height: 25px;
+	background-color: #e8e9ee;
+	border:1px solid #E8E9EF;
+}
+.dialog1 .dialog_content .del_left {
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: bold;
+	float: left;
+}
+.dialog1 .dialog_content .del_right {
+	display: block;
+	font-size: 17px;
+	height: 14px;
+	width: 14px;
+	line-height: 14px;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	float: right;
+	border: 1px solid #b3b3b3
+}
+.dialog1 input[type=button] {
+	font-size: 14px;
+	font-weight:bold;
+	height: 30px;
+	width: 60px;
+	color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fc7001;
+    background-image: -moz-linear-gradient(top, #fc7001, #fb7104);
+    background-image: linear-gradient(to bottom, #fc7001, #fb7104);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-radius:4px;
+}
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity=80);
+}
+.tanchuang {
+	background-color: #999;
+}
+.dialog1 form .box_file {
+	position: absolute;
+	top: 60px;
+	left: 120px;
+	width:200px;
+	overflow:hidden;
+}
+.dialog1 form .box_text {
+	position: absolute;
+	top: 150px;
+	left: 140px;
+}

@@ -1,0 +1,7 @@
+div#vtip{position:absolute;padding:5px;padding-left:23px;background-color: #dee5ff;
+    border: 1px solid #a6c9e2;z-index:9999;}
+div#vtip #vtipArrow{position:absolute;top:-10px;left:5px;background:url(./img/ArrowUp.png) no-repeat;width:20px;height:20px;}
+input.input_validation-failed{border:1px solid red;}
+div.error{margin:0;border-bottom:#ddd 1px solid;border-left:#ddd 1px solid;padding-bottom:2px;line-height:18px;padding-left:23px;padding-right:10px;background:url(./img/error.png) no-repeat 3px 2px;color:#404040;border-top:#ddd 1px solid;border-right:#ddd 1px solid;padding-top:2px;border-color:#ff8080;position:absolute;}
+div.succ{margin:0;padding-bottom:2px;line-height:18px;padding-left:23px;padding-right:10px;background:url(./img/success.png) no-repeat 3px 2px;color:#404040;padding-top:2px;position:absolute;}
+div.tip{margin:0;border-bottom:#ddd 1px solid;border-left:#ddd 1px solid;border-top:#ddd 1px solid;border-right:#ddd 1px solid;padding-bottom:2px;line-height:18px;padding-left:23px;padding-right:10px;background:url(./img/tip.png) no-repeat 3px 2px;background-color:#FFF;color:#404040;padding-top:2px;border-color:#4dbf00;position:absolute;}
